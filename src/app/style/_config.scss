@@ -1,0 +1,11 @@
+$light: #F9F5EB;
+$gray: #E4DCCF;
+$red: #EA5455;
+$blue: #002B5B;
+
+$primary-font: 'Poppins', sans-serif;
+$secondary-font: 'Inconsolata', monospace;
+
+@mixin easeOut {
+  transition: all .3s ease-out;
+}

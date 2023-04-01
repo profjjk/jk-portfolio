@@ -1,0 +1,32 @@
+@import 'config';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $light;
+  font-family: $primary-font;
+}
+
+h1, h2, h3, h4, h5, h6, .code {
+  font-family: $secondary-font;
+}
+
+a, button, .btn {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+a {
+  color: $blue;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+@import 'nav';

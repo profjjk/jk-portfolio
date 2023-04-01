@@ -1,0 +1,17 @@
+[
+  {
+    "front-end": ["JavaScript", "TypeScript", "ReactJS", "HTML5", "CSS/SCSS", "JQuery", "Bootstrap"]
+  },
+  {
+    "back-end": ["NodeJS", "ExpressJS", "Java", "Spring Boot Framework", "JUnit", "C#"]
+  },
+  {
+    "databases": ["SQL", "MongoDB"]
+  },
+  {
+    "dev-ops": ["AWS", "Netlify", "Heroku", "Jenkins", "Git"]
+  },
+  {
+    "knowledge": ["OOP", "RESTful APIs", "MVC Structure", "Microservice Architecture", "Test Driven Development"]
+  }
+]
