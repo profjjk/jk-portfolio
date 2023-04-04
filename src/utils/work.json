@@ -1,0 +1,75 @@
+[
+  {
+    "name": "PriceSpider | Where_To_Buy",
+    "description": "Nam iaculis id nibh sed lacinia. Sed facilisis metus in leo imperdiet ultricies. Cras non elit feugiat libero tristique ullamcorper sed nec est. Suspendisse accumsan lobortis lorem pretium cursus. Nulla tincidunt ullamcorper aliquet. Proin lobortis tortor at pharetra condimentum. Aenean scelerisque augue vel tortor varius, vel congue libero maximus.",
+    "tech": ["JavaScript", "SQL", "MongoDB", "C#", "Handlebars", "HTML5", "CSS3"],
+    "images": [
+      {
+        "src": "/images/miller-electric.png",
+        "alt": "Miller Electric"
+      },
+      {
+        "src": "/images/pharmaton.png",
+        "alt": "Pharmaton"
+      },
+      {
+        "src": "/images/sea-cuisine.png",
+        "alt": "Sea Cuisine"
+      },
+      {
+        "src": "/images/novanight.png",
+        "alt": "Novanight"
+      }
+    ]
+  },
+  {
+    "name": "Metronics | Customer_Relationship_Manager",
+    "description": "Nam iaculis id nibh sed lacinia. Sed facilisis metus in leo imperdiet ultricies. Cras non elit feugiat libero tristique ullamcorper sed nec est. Suspendisse accumsan lobortis lorem pretium cursus. Nulla tincidunt ullamcorper aliquet. Proin lobortis tortor at pharetra condimentum. Aenean scelerisque augue vel tortor varius, vel congue libero maximus.",
+    "tech": ["NodeJS", "ExpressJS", "MongoDB", "ReactJS", "SCSS/Sass"],
+    "web_url": "https://metronics-webapp.netlify.app",
+    "git_url": "https://github.com/profjjk/metronics-crm-webapp",
+    "images": [
+      {
+        "src": "/images/dashboard.png",
+        "alt": "Metronics dashboard"
+      },
+      {
+        "src": "/images/customers.png",
+        "alt": "Metronics customers"
+      },
+      {
+        "src": "/images/service-jobs.png",
+        "alt": "Metronics service jobs"
+      },
+      {
+        "src": "/images/inventory.png",
+        "alt": "Metronics inventory"
+      }
+    ]
+  },
+  {
+    "name": "Metronics | Company_Website",
+    "description": "Nam iaculis id nibh sed lacinia. Sed facilisis metus in leo imperdiet ultricies. Cras non elit feugiat libero tristique ullamcorper sed nec est. Suspendisse accumsan lobortis lorem pretium cursus. Nulla tincidunt ullamcorper aliquet. Proin lobortis tortor at pharetra condimentum. Aenean scelerisque augue vel tortor varius, vel congue libero maximus.",
+    "tech": ["NodeJS", "ExpressJS", "MongoDB", "Handlebars", "SCSS/Sass"],
+    "web_url": "https://metronics-website.herokuapp.com/",
+    "git_url": "https://github.com/profjjk/metronics-official-website",
+    "images": [
+      {
+        "src": "/images/metronics.png",
+        "alt": "Metronics home page"
+      },
+      {
+        "src": "/images/equipment.png",
+        "alt": "Metronics equipment sales"
+      },
+      {
+        "src": "/images/request.png",
+        "alt": "Metronics service request form"
+      },
+      {
+        "src": "/images/contact.png",
+        "alt": "Metronics contact page"
+      }
+    ]
+  }
+]

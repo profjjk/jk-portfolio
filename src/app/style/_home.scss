@@ -1,0 +1,49 @@
+@import 'config';
+
+#tech-stack {
+  display: flex;
+  justify-content: center;
+  border-top: 4px solid $blue;
+}
+
+.skill-area {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+
+  h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem 0 1rem 0;
+  }
+}
+
+.skill-row {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 1rem;
+  align-items: center;
+
+  h3 {
+    padding: 0.5rem 0.75rem;
+    text-align: right;
+  }
+}
+
+.tech-list {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  div  {
+    font-family: $secondary-font;
+    font-size: 1rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 5px;
+    background-color: black;
+    color: $light;
+    width: fit-content;
+    height: fit-content;
+  }
+}

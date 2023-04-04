@@ -1,17 +1,22 @@
 [
   {
-    "front-end": ["JavaScript", "TypeScript", "ReactJS", "HTML5", "CSS/SCSS", "JQuery", "Bootstrap"]
+    "name": "Frontend",
+    "skills": ["JavaScript", "TypeScript", "ReactJS", "HTML5", "CSS/SCSS", "JQuery", "Jest", "Bootstrap"]
   },
   {
-    "back-end": ["NodeJS", "ExpressJS", "Java", "Spring Boot Framework", "JUnit", "C#"]
+    "name": "Backend",
+    "skills": ["NodeJS", "ExpressJS", "Java", "Spring Boot Framework", "JUnit", "C#"]
   },
   {
-    "databases": ["SQL", "MongoDB"]
+    "name": "Database",
+    "skills": ["SQL", "MongoDB"]
   },
   {
-    "dev-ops": ["AWS", "Netlify", "Heroku", "Jenkins", "Git"]
+    "name": "Devops",
+    "skills": ["AWS", "Jenkins", "Git", "Netlify", "Heroku"]
   },
   {
-    "knowledge": ["OOP", "RESTful APIs", "MVC Structure", "Microservice Architecture", "Test Driven Development"]
+    "name": "Knowledge",
+    "skills": ["OOP", "RESTful APIs", "MVC Structure", "Microservices", "Test Driven Development"]
   }
 ]

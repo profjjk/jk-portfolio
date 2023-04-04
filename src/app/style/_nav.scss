@@ -2,18 +2,22 @@
 
 nav {
   position: fixed;
+  z-index: 3;
   top: 0;
   left: 0;
   right: 0;
   height: 60px;
+  min-width: 550px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 1rem 4rem;
+  margin: 0 4rem;
+  padding: 2rem 0;
   border-bottom: 4px solid $red;
+  background-color: $light;
 
   h3 a {
-    font-size: 2.2rem;
+    font-size: 2rem;
     &:hover {
       text-decoration: none;
     }

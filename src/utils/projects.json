@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Service Center",
+    "description": "",
+    "tech": ["NodeJS", "ExpressJS", "MongoDB", "ReactJS", "TypeScript", "SCSS/Sass"],
+    "web_url": "",
+    "git_url": "https://github.com/profjjk/service-center"
+  },
+  {
+    "name": "React Mini-Apps",
+    "description": "",
+    "tech": ["ReactJS", "TypeScript", "SCSS/Sass", "Jest"],
+    "web_url": "https://react-challenges.netlify.app/",
+    "git_url": "https://github.com/profjjk/react-challenges"
+  }
+]
