@@ -1,7 +1,7 @@
 [
   {
     "name": "PriceSpider | Where_To_Buy",
-    "description": "Nam iaculis id nibh sed lacinia. Sed facilisis metus in leo imperdiet ultricies. Cras non elit feugiat libero tristique ullamcorper sed nec est. Suspendisse accumsan lobortis lorem pretium cursus. Nulla tincidunt ullamcorper aliquet. Proin lobortis tortor at pharetra condimentum. Aenean scelerisque augue vel tortor varius, vel congue libero maximus.",
+    "description": "As a Solutions Developer at PriceSpider I was responsible for the design, development, and installation of the Where To Buy interface on client websites. I was also responsible for ensuring the fidelity of the data collected from clients, troubleshooting data propagation issues in SQL and MongoDB, and integrating the platform with Google Analytics.",
     "tech": ["JavaScript", "SQL", "MongoDB", "C#", "Handlebars", "HTML5", "CSS3"],
     "images": [
       {
@@ -23,8 +23,8 @@
     ]
   },
   {
-    "name": "Metronics | Customer_Relationship_Manager",
-    "description": "Nam iaculis id nibh sed lacinia. Sed facilisis metus in leo imperdiet ultricies. Cras non elit feugiat libero tristique ullamcorper sed nec est. Suspendisse accumsan lobortis lorem pretium cursus. Nulla tincidunt ullamcorper aliquet. Proin lobortis tortor at pharetra condimentum. Aenean scelerisque augue vel tortor varius, vel congue libero maximus.",
+    "name": "Metronics | Business_Management_Software",
+    "description": "As a Software Developer at Metronics I designed, developed, and deployed business management software that allowed for the digitization of customer, service job, and inventory records to allow for quick and easy lookup of critical business information.",
     "tech": ["NodeJS", "ExpressJS", "MongoDB", "ReactJS", "SCSS/Sass"],
     "web_url": "https://metronics-webapp.netlify.app",
     "git_url": "https://github.com/profjjk/metronics-crm-webapp",
@@ -49,7 +49,7 @@
   },
   {
     "name": "Metronics | Company_Website",
-    "description": "Nam iaculis id nibh sed lacinia. Sed facilisis metus in leo imperdiet ultricies. Cras non elit feugiat libero tristique ullamcorper sed nec est. Suspendisse accumsan lobortis lorem pretium cursus. Nulla tincidunt ullamcorper aliquet. Proin lobortis tortor at pharetra condimentum. Aenean scelerisque augue vel tortor varius, vel congue libero maximus.",
+    "description": "I created the company's first ever website to help increase their sales revenue by showcasing their equipment offerings online, and also to improve the customer experience when scheduling service jobs by providing an online request form.",
     "tech": ["NodeJS", "ExpressJS", "MongoDB", "Handlebars", "SCSS/Sass"],
     "web_url": "https://metronics-website.herokuapp.com/",
     "git_url": "https://github.com/profjjk/metronics-official-website",
@@ -59,12 +59,12 @@
         "alt": "Metronics home page"
       },
       {
-        "src": "/images/equipment.png",
-        "alt": "Metronics equipment sales"
-      },
-      {
         "src": "/images/request.png",
         "alt": "Metronics service request form"
+      },
+      {
+        "src": "/images/equipment.png",
+        "alt": "Metronics equipment sales"
       },
       {
         "src": "/images/contact.png",

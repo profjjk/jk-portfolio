@@ -4,6 +4,17 @@ import uuid from 'react-uuid';
 export const Homepage = () => {
     return (
         <main id={'homepage'}>
+            <section id={'bio'}>
+                <p>
+                    I am a full-stack developer with several years of experience in software development.
+                </p>
+                <p>
+                    What sets me apart as a software developer is my ability to leverage my understanding of human
+                    behavior and psychology to create user-friendly and intuitive software applications that solve real
+                    problems. I have worked on both consumer-facing websites and internal tools, and I am well-versed in
+                    software development frameworks such as Agile and Scrum.
+                </p>
+            </section>
             <section id={'tech-stack'}>
                 <div className={'skill-area'} key={uuid()}>
                     <h2>Tech_Stack</h2>

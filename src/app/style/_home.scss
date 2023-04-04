@@ -1,9 +1,33 @@
 @import 'config';
 
+#bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid $red;
+  min-height: 400px;
+
+  p {
+    max-width: 80%;
+    font-size: 1.2rem;
+  }
+
+  p:first-of-type {
+    max-width: 60%;
+    text-align: center;
+    font-style: oblique;
+    font-size: 1.6rem;
+  }
+}
+
 #tech-stack {
   display: flex;
   justify-content: center;
-  border-top: 4px solid $blue;
+  //border-top: 4px solid $blue;
 }
 
 .skill-area {
