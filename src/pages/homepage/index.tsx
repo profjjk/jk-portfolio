@@ -1,4 +1,4 @@
-import skills from '../../utils/tech-stack.json';
+import skills from '../../data/tech-stack.json';
 import uuid from 'react-uuid';
 
 export const Homepage = () => {
@@ -11,8 +11,8 @@ export const Homepage = () => {
                 <p>
                     What sets me apart as a software developer is my ability to leverage my understanding of human
                     behavior and psychology to create user-friendly and intuitive software applications that solve real
-                    problems. I have worked on both consumer-facing websites and internal tools, and I am well-versed in
-                    software development frameworks such as Agile and Scrum.
+                    problems. I have worked on both consumer-facing websites and internal tools, and I have experience
+                    working on multi-disciplinary teams using software development frameworks such as Agile and Scrum.
                 </p>
             </section>
             <section id={'tech-stack'}>

@@ -1,13 +1,12 @@
 @import 'config';
 
-nav {
+header {
   position: fixed;
   z-index: 3;
   top: 0;
   left: 0;
   right: 0;
   height: 60px;
-  min-width: 550px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -23,12 +22,15 @@ nav {
     }
   }
 
-  div {
-    display: flex;
+  .nav-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 4rem;
   }
 
   .nav-link {
+    justify-self: center;
     font-family: $secondary-font;
     font-size: 1.5rem;
     font-weight: 300;
@@ -39,5 +41,79 @@ nav {
     &.active {
       font-weight: 900;
     }
+  }
+}
+
+.nav-menu {
+  visibility: hidden;
+}
+
+
+@media screen and (max-width: 767px) {
+  header {
+    margin: 0 2rem;
+  }
+  .nav-list {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0, 43, 91, 0.98);
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 6rem !important;
+    transform: translate3d(0, 0, 0);
+    @include easeOut;
+
+    &.hidden {
+      visibility: hidden;
+      transform: translate3d(0, -100%, 0);
+    }
+  }
+
+  .nav-link {
+    font-size: 3rem !important;
+    font-weight: 900 !important;
+    a {
+      color: $light;
+    }
+  }
+
+  .nav-menu {
+    visibility: visible;
+    position: absolute;
+    z-index: 3;
+    top: 1.5rem;
+    right: 0;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &.open {
+      .menu-line {
+        background-color: $light;
+        &:nth-child(1) {
+          transform: rotate(45deg) translate(5px, 5px)
+        }
+        &:nth-child(2) {
+          opacity: 0;
+        }
+        &:nth-child(3) {
+          transform: rotate(-45deg) translate(6px, -7px)
+        }
+      }
+    }
+  }
+
+  .menu-line {
+    width: 30px;
+    height: 3px;
+    margin: 0 0 5px 0;
+    background: $blue;
+    @include easeOut;
   }
 }

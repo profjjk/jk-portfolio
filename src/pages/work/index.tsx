@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
-import workList from '../../utils/work.json';
+import workList from '../../data/work.json';
 
 type Image = {
     src: string,
