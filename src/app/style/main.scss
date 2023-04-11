@@ -40,6 +40,13 @@ a {
   }
 }
 
+@media screen and (max-width: 767px) {
+  main {
+    padding: 1rem;
+    margin: 80px 0 0 0;
+  }
+}
+
 @import 'nav';
 @import 'home';
 @import 'work';

@@ -89,3 +89,26 @@
     color: black;
   }
 }
+
+@media screen and (max-width: 767px) {
+  #work {
+    display: block;
+    h1 {
+      font-size: 2.5rem;
+      text-align: center;
+    }
+    h2 {
+      margin-top: 2rem;
+      text-align: center;
+    }
+    p {
+      text-align: justify;
+    }
+  }
+
+  .tech-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
