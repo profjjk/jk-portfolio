@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
 import workList from '../../data/work.json';
+import uuid from 'react-uuid';
 
 type Image = {
     src: string,
@@ -16,16 +17,17 @@ export const Work = () => {
             <h1>Work_Experience</h1>
 
             {workList.map((job) => (
-                <div className={'job'}>
+                <div className={'job'} key={uuid()}>
                     <h2>{job.name}</h2>
                     <p>{job.description}</p>
                     <ul className={'screenshots'}>
                         {job.images.map((img) => (
-                            <li>
+                            <li key={uuid()}>
                                 <img
                                     src={img.src}
                                     alt={img.alt}
-                                    onClick={() => setPhoto({ src: img.src, alt: img.alt })}/>
+                                    onClick={() => window.innerWidth > 767 &&
+                                        setPhoto({ src: img.src, alt: img.alt })} />
                             </li>
                         ))}
                     </ul>

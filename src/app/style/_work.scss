@@ -17,8 +17,9 @@
   flex-direction: column;
   max-width: 1250px;
   padding-bottom: 2rem;
-  border-bottom: 2px solid $red;
+  border-bottom: 2px solid $blue;
   gap: 1rem;
+  margin-bottom: 50px;
 
   &:last-child {
     border-bottom: none;
@@ -27,6 +28,7 @@
   img {
     max-width: 250px;
     height: auto;
+    border: 2px solid lightgray;
 
     &:hover {
       cursor: pointer;
@@ -63,7 +65,7 @@
 
   img {
     max-width: 100%;
-    border: 3px solid $gray;
+    border: 3px solid $dark;
     border-radius: 10px !important;
   }
 }
@@ -103,6 +105,16 @@
     }
     p {
       text-align: justify;
+    }
+  }
+
+  .screenshots {
+    li {
+      display: none;
+
+      &:first-child {
+        display: block;
+      }
     }
   }
 

@@ -1,14 +1,55 @@
 [
   {
-    "name": "Service Center",
+    "name": "PriceSpider",
+    "role": "",
+    "summary": "\"Where To Buy\" widgets that help brands connect customers with retailers.",
     "description": "",
-    "tech": ["NodeJS", "ExpressJS", "MongoDB", "ReactJS", "TypeScript", "SCSS/Sass"],
+    "images": [
+      "/public/images/pricespider/miller-electric.png",
+      "/public/images/pricespider/novanight.png",
+      "/public/images/pricespider/sea-cuisine.png",
+      "/public/images/pricespider/pharmaton.png"
+    ],
+    "tech": ["JavaScript", "Handlebars", "CSS", "SQL Server", "C#", "Google Analytics"],
     "web_url": "",
     "git_url": "https://github.com/profjjk/service-center"
   },
   {
-    "name": "React Mini-Apps",
+    "name": "Service Center",
+    "role": "",
+    "summary": "Business management software.",
+    "description": "This is tool to help Service Centers and Manufacturer's Representatives keep track of customers, inventory, and service requests. As someone who once worked in this industry, I recognized the need for a simple software application that would help manage these aspects of the business.",
+    "images": [
+      "/public/images/service_center/dashboard.png",
+      "/public/images/service_center/customers.png",
+      "/public/images/service_center/service-jobs.png",
+      "/public/images/service_center/inventory.png"
+    ],
+    "tech": ["NodeJS", "ExpressJS", "MongoDB", "ReactJS", "TypeScript", "SCSS"],
+    "web_url": "",
+    "git_url": "https://github.com/profjjk/service-center"
+  },
+  {
+    "name": "Metronics",
+    "role": "",
+    "summary": "Official company website.",
     "description": "",
+    "images": [
+      "/public/images/metronics/metronics.png",
+      "/public/images/metronics/equipment.png",
+      "/public/images/metronics/request.png",
+      "/public/images/metronics/contact.png"
+    ],
+    "tech": ["JavaScript", "NodeJS", "ExpressJS", "Handlebars", "SCSS", "MongoDB"],
+    "web_url": "",
+    "git_url": "https://github.com/profjjk/service-center"
+  },
+  {
+    "name": "React Challenges",
+    "role": "",
+    "summary": "A series of React coding challenges.",
+    "description": "",
+    "images": [],
     "tech": ["ReactJS", "TypeScript", "SCSS/Sass", "Jest"],
     "web_url": "https://react-challenges.netlify.app/",
     "git_url": "https://github.com/profjjk/react-challenges"
