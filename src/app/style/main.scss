@@ -7,39 +7,61 @@
 }
 
 body {
-  background-color: $light;
+  background-color: $background;
   font-family: $primary-font;
 }
 
-main {
-  margin: 100px 4rem 1rem 4rem;
-  padding: 2rem 4rem;
+header, main {
+  margin: 0 auto;
+  max-width: 1250px;
 }
 
-h1, h2, h3, h4, h5, h6, .code {
+h1, h2 {
   font-family: $secondary-font;
-  color: $blue;
 }
 
-h1 {
-  font-size: 3rem;
-}
-
-a, button, .btn {
-  &:hover {
+a, button {
+  &:hover:enabled {
     cursor: pointer;
   }
 }
 
-a {
-  color: $blue;
+ul, li, a {
   text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
-  }
+  list-style: none;
 }
 
-@import 'nav';
+#pricespider, #service-center, #metronics, #react-challenges {
+  padding: 2rem 4rem;
+}
+
+.tech-stack {
+  max-width: 400px;
+  h3 {
+    font-weight: 400;
+    margin-top: 0.8rem;
+  }
+}
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  //margin: 0.8rem 0 2rem 0;
+}
+.tech {
+  background-color: $dark;
+  color: $light;
+  padding: 5px 8px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+}
+
+
+@media screen and (max-width: 767px) {
+
+}
+
 @import 'home';
-@import 'work';
+@import 'header';
+@import 'project';
+@import 'modal';

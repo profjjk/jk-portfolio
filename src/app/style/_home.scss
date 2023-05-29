@@ -1,73 +1,109 @@
 @import 'config';
 
-#bio {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-  margin-bottom: 2rem;
-  padding-bottom: 2rem;
-  border-bottom: 2px solid $red;
-  min-height: 400px;
-
-  p {
-    max-width: 75%;
-    font-size: 1.2rem;
+#homepage {
+  padding: 2rem 4rem;
+  h1 {
+    font-size: 2.8rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
   }
-
-  p:first-of-type {
-    max-width: 60%;
-    text-align: center;
-    font-style: oblique;
-    font-size: 1.6rem;
-  }
-}
-
-#tech-stack {
-  display: flex;
-  justify-content: center;
-  //border-top: 4px solid $blue;
-}
-
-.skill-area {
-  width: fit-content;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  justify-content: center;
-
   h2 {
-    text-align: center;
-    font-size: 2rem;
-    margin: 2rem 0 1rem 0;
+    font-size: 2.3rem;
   }
-}
-
-.skill-row {
-  display: grid;
-  grid-template-columns: 120px 1fr;
-  gap: 1rem;
-  align-items: center;
-
-  h3 {
-    padding: 0.5rem 0.75rem;
-    text-align: right;
+  p, em {
+    font-size: 1.1rem;
   }
-}
-
-.tech-list {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  div  {
+  strong {
     font-family: $secondary-font;
-    font-size: 1rem;
-    padding: 0.5rem 0.75rem;
-    border-radius: 5px;
-    background-color: black;
+    font-size: 1.4rem;
+  }
+  [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .link {
+    color: $dark;
+    font-size: 1.1rem;
+    font-style: italic;
+    &:hover {
+      color: $blue;
+    }
+  }
+}
+
+#bio {
+  margin-bottom: 0;
+  div:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
+
+#bio, #projects, #technologies {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 4rem;
+  margin: 2rem 0;
+  padding-bottom: 2rem;
+}
+
+#projects {
+  padding-top: 1rem;
+  border-top: 3px solid $red;
+  h2 {
+    color: $red;
+    font-weight: 400;
+  }
+  .project-list {
+    margin-top: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .project-link {
+    border-bottom: 1px solid $gray;
+    padding-bottom: 0.6rem;
+    h3 {
+      font-weight: 400;
+      font-size: 1.5rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+    &:hover {
+      cursor: pointer;
+      color: $blue;
+    }
+  }
+}
+
+#technologies {
+  padding-top: 1rem;
+  border-top: 3px solid $red;
+  h2 {
+    color: $red;
+    font-weight: 400;
+  }
+  .tech-stack {
+    max-width: 400px;
+    h3 {
+      font-weight: 400;
+      margin-top: 0.8rem;
+    }
+  }
+  .tech-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin: 0.8rem 0 2rem 0;
+  }
+  .tech {
+    background-color: $dark;
     color: $light;
-    width: fit-content;
-    height: fit-content;
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-size: 0.8rem;
   }
 }

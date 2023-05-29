@@ -35,9 +35,9 @@ export const Navbar = () => {
                         <NavLink to={'work'}>Work</NavLink>
                     </li>
 
-                    <li className={'nav-link'} onClick={() => setShowMenu(false)}>
-                        <NavLink to={'projects'}>Projects</NavLink>
-                    </li>
+                    {/*<li className={'nav-link'} onClick={() => setShowMenu(false)}>*/}
+                    {/*    <NavLink to={'projects'}>Projects</NavLink>*/}
+                    {/*</li>*/}
 
                     <li className={'nav-link'} onClick={() => setShowMenu(false)}>
                         <NavLink to={'contact'}>Contact</NavLink>

@@ -1,0 +1,38 @@
+@import 'config';
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  border-bottom: 3px solid $red;
+  position: relative;
+  h1 {
+    font-size: 2.8rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  strong {
+    font-family: "Inconsolata", monospace;
+    font-size: 1.4rem;
+  }
+  h2 {
+    font-size: 2.3rem;
+    background-color: $red;
+    color: white;
+    align-self: end;
+    border: 3px solid $red;
+    border-bottom: none;
+    padding: 0 5px;
+  }
+  .tab {
+    width: 0;
+    height: 0;
+    border-left: 42px solid transparent;
+    border-bottom: 42px solid $red;
+    position: absolute;
+    bottom: 0;
+  }
+}

@@ -1,17 +1,17 @@
 import { Routes, Route } from 'react-router-dom'
-import { Homepage, Work } from '../pages';
-import { Navbar } from '../components';
+import { Homepage, Metronics, PriceSpider, ReactChallenges, ServiceCenter } from '../pages';
 import './style/main.scss';
 
 export const App = () => {
     return (
         <>
-            <Navbar />
             <Routes>
                 <Route path={'/'} element={<Homepage />} />
-                <Route path={'/work'} element={<Work />} />
+                <Route path={'/pricespider'} element={<PriceSpider />} />
+                <Route path={'/service-center'} element={<ServiceCenter />} />
+                <Route path={'/metronics'} element={<Metronics />} />
+                <Route path={'/react-challenges'} element={<ReactChallenges />} />
             </Routes>
         </>
     )
 }
-

@@ -12,7 +12,7 @@ header {
   justify-content: space-between;
   margin: 0 4rem;
   padding: 2rem 0;
-  border-bottom: 4px solid $red;
+  border-bottom: 4px solid $blue;
   background-color: $light;
 
   h3 a {
@@ -36,10 +36,10 @@ header {
     font-weight: 300;
     &:hover {
       font-weight: 400;
-      text-decoration: none;
     }
-    &.active {
+    & > a.active {
       font-weight: 900;
+      text-decoration: underline;
     }
   }
 }
@@ -51,7 +51,11 @@ header {
 
 @media screen and (max-width: 767px) {
   header {
-    margin: 0 2rem;
+    margin: 0 1rem;
+    padding: 0 0.5rem;
+    h3 a {
+      font-size: 1.8rem;
+    }
   }
   .nav-list {
     position: fixed;
@@ -86,8 +90,8 @@ header {
     visibility: visible;
     position: absolute;
     z-index: 3;
-    top: 1.5rem;
-    right: 0;
+    top: 1.3rem;
+    right: 0.5rem;
 
     &:hover {
       cursor: pointer;

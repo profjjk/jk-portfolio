@@ -1,16 +1,61 @@
 [
   {
-    "name": "Service Center",
+    "name": "PriceSpider",
+    "role": "Front-end developer",
+    "summary": "\"Where To Buy\" widgets that help brands connect customers with retailers.",
     "description": "",
-    "tech": ["NodeJS", "ExpressJS", "MongoDB", "ReactJS", "TypeScript", "SCSS/Sass"],
+    "images": [
+      { "src": "/images/pricespider/miller-electric.png", "alt": "Miller Electric" },
+      { "src": "/images/pricespider/novanight.png", "alt": "Novanight" },
+      { "src": "/images/pricespider/sea-cuisine.png", "alt": "Sea Cuisine" },
+      { "src": "/images/pricespider/pharmaton.png", "alt": "Pharmaton" }
+    ],
+    "tech": ["JavaScript", "Handlebars", "CSS", "SQL Server", "MongoDB", "C#", "Google Analytics"],
     "web_url": "",
-    "git_url": "https://github.com/profjjk/service-center"
+    "git_url": "https://github.com/profjjk/service-center",
+    "page": "pricespider"
   },
   {
-    "name": "React Mini-Apps",
+    "name": "Service Center",
+    "role": "Full-stack software developer",
+    "summary": "Customer relationship manager.",
+    "description": "This is tool to help Service Centers and Manufacturer's Representatives keep track of customers, inventory, and service requests. As someone who once worked in this industry, I recognized the need for a simple software application that would help manage these aspects of the business.",
+    "images": [
+      { "src": "/images/service_center/dashboard.png", "alt": "Dashboard" },
+      { "src": "/images/service_center/customers.png", "alt": "Customer Page" },
+      { "src": "/images/service_center/service-jobs.png", "alt": "Service Jobs Page" },
+      { "src": "/images/service_center/inventory.png", "alt": "Inventory Page" }
+    ],
+    "tech": ["NodeJS", "ExpressJS", "MongoDB", "ReactJS", "TypeScript", "SCSS"],
+    "web_url": "",
+    "git_url": "https://github.com/profjjk/service-center",
+    "page": "service-center"
+  },
+  {
+    "name": "Metronics",
+    "role": "Web Developer",
+    "summary": "Official company website.",
     "description": "",
+    "images": [
+      { "src": "/images/metronics/metronics.png", "alt": "Home Page" },
+      { "src": "/images/metronics/equipment.png", "alt": "Equipment Page" },
+      { "src": "/images/metronics/request.png", "alt": "Request Form" },
+      { "src": "/images/metronics/contact.png", "alt": "Contact Page" }
+    ],
+    "tech": ["JavaScript", "NodeJS", "ExpressJS", "Handlebars", "SCSS", "MongoDB"],
+    "web_url": "",
+    "git_url": "https://github.com/profjjk/service-center",
+    "page": "metronics"
+  },
+  {
+    "name": "React Challenges",
+    "role": "",
+    "summary": "A series of React coding challenges.",
+    "description": "",
+    "images": [],
     "tech": ["ReactJS", "TypeScript", "SCSS/Sass", "Jest"],
     "web_url": "https://react-challenges.netlify.app/",
-    "git_url": "https://github.com/profjjk/react-challenges"
+    "git_url": "https://github.com/profjjk/react-challenges",
+    "page": "react-challenges"
   }
 ]

@@ -1,0 +1,27 @@
+[
+  {
+    "degree": "B.S. Computer Science",
+    "school": "Western Governor's University, UT",
+    "year": "in progress"
+  },
+  {
+    "degree": "Bootcamp: Java & React Native",
+    "school": "Southern Methodist University, TX",
+    "year": "2021"
+  },
+  {
+    "degree": "Bootcamp: Full Stack Web Development",
+    "school": "University of California, Berkeley",
+    "year": "2021"
+  },
+  {
+    "degree": "M.A. Psychology",
+    "school": "Sonoma State University, CA",
+    "year": "2011"
+  },
+  {
+    "degree": "B.A. Psychology",
+    "school": "University of Nevada, Reno",
+    "year": "2007"
+  }
+]

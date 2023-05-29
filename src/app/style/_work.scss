@@ -17,8 +17,9 @@
   flex-direction: column;
   max-width: 1250px;
   padding-bottom: 2rem;
-  border-bottom: 2px solid $red;
+  border-bottom: 2px solid $blue;
   gap: 1rem;
+  margin-bottom: 50px;
 
   &:last-child {
     border-bottom: none;
@@ -27,6 +28,7 @@
   img {
     max-width: 250px;
     height: auto;
+    border: 2px solid lightgray;
 
     &:hover {
       cursor: pointer;
@@ -63,7 +65,7 @@
 
   img {
     max-width: 100%;
-    border: 3px solid $gray;
+    border: 3px solid $dark;
     border-radius: 10px !important;
   }
 }
@@ -87,5 +89,38 @@
   &:hover {
     cursor: pointer;
     color: black;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #work {
+    display: block;
+    h1 {
+      font-size: 2.5rem;
+      text-align: center;
+    }
+    h2 {
+      margin-top: 2rem;
+      text-align: center;
+    }
+    p {
+      text-align: justify;
+    }
+  }
+
+  .screenshots {
+    li {
+      display: none;
+
+      &:first-child {
+        display: block;
+      }
+    }
+  }
+
+  .tech-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }

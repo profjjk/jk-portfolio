@@ -1,22 +1,11 @@
 [
   {
-    "name": "Frontend",
-    "skills": ["JavaScript", "TypeScript", "ReactJS", "HTML5", "CSS/SCSS", "JQuery", "Jest", "Bootstrap"]
+    "name": "Currently Working With",
+    "skills": ["JavaScript", "TypeScript", "ReactJS", "Redux", "React-Query", "NodeJS", "ExpressJS", "SQL", "MongoDB",
+      "Git", "Jest", "HTML5", "CSS3", "SCSS/Sass", "NextJS"]
   },
   {
-    "name": "Backend",
-    "skills": ["NodeJS", "ExpressJS", "Java", "Spring Boot Framework", "JUnit", "C#"]
-  },
-  {
-    "name": "Database",
-    "skills": ["SQL", "MongoDB"]
-  },
-  {
-    "name": "DevOps",
-    "skills": ["AWS", "Jenkins", "Git", "Netlify", "Heroku"]
-  },
-  {
-    "name": "Knowledge",
-    "skills": ["OOP", "RESTful APIs", "MVC Structure", "Microservices", "Test Driven Development"]
+    "name": "Previous Experience With",
+    "skills": ["Java", "Spring Boot", "Jenkins", "JUnit", "Bootstrap", "Handlebars", "JQuery", "Tailwind"]
   }
 ]
