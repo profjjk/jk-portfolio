@@ -1,3 +1,5 @@
 export { Homepage } from './homepage';
-export { Work } from './work';
-export { Projects } from './projects';
+export { PriceSpider } from './pricespider';
+export { ServiceCenter } from './service_center';
+export { Metronics } from './metronics';
+export { ReactChallenges } from './react_challenges';

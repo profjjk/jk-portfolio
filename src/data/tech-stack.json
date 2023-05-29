@@ -1,10 +1,11 @@
 [
   {
     "name": "Currently Working With",
-    "skills": ["JavaScript", "TypeScript", "ReactJS", "Redux", "React Query", "NodeJS", "SQL", "MongoDB", "Git", "Jest", "HTML", "CSS"]
+    "skills": ["JavaScript", "TypeScript", "ReactJS", "Redux", "React-Query", "NodeJS", "ExpressJS", "SQL", "MongoDB",
+      "Git", "Jest", "HTML5", "CSS3", "SCSS/Sass", "NextJS"]
   },
   {
     "name": "Previous Experience With",
-    "skills": ["Java", "Spring Boot", "C#", "Jenkins", "AWS", "JUnit", "Bootstrap", "Handlebars", "JQuery", "Microservices"]
+    "skills": ["Java", "Spring Boot", "Jenkins", "JUnit", "Bootstrap", "Handlebars", "JQuery", "Tailwind"]
   }
 ]

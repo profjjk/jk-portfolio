@@ -11,7 +11,7 @@ body {
   font-family: $primary-font;
 }
 
-main {
+header, main {
   margin: 0 auto;
   max-width: 1250px;
 }
@@ -31,9 +31,37 @@ ul, li, a {
   list-style: none;
 }
 
+#pricespider, #service-center, #metronics, #react-challenges {
+  padding: 2rem 4rem;
+}
+
+.tech-stack {
+  max-width: 400px;
+  h3 {
+    font-weight: 400;
+    margin-top: 0.8rem;
+  }
+}
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  //margin: 0.8rem 0 2rem 0;
+}
+.tech {
+  background-color: $dark;
+  color: $light;
+  padding: 5px 8px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+}
+
 
 @media screen and (max-width: 767px) {
 
 }
 
 @import 'home';
+@import 'header';
+@import 'project';
+@import 'modal';

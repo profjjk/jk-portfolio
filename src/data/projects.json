@@ -1,48 +1,51 @@
 [
   {
     "name": "PriceSpider",
-    "role": "",
+    "role": "Front-end developer",
     "summary": "\"Where To Buy\" widgets that help brands connect customers with retailers.",
     "description": "",
     "images": [
-      "/public/images/pricespider/miller-electric.png",
-      "/public/images/pricespider/novanight.png",
-      "/public/images/pricespider/sea-cuisine.png",
-      "/public/images/pricespider/pharmaton.png"
+      { "src": "/images/pricespider/miller-electric.png", "alt": "Miller Electric" },
+      { "src": "/images/pricespider/novanight.png", "alt": "Novanight" },
+      { "src": "/images/pricespider/sea-cuisine.png", "alt": "Sea Cuisine" },
+      { "src": "/images/pricespider/pharmaton.png", "alt": "Pharmaton" }
     ],
-    "tech": ["JavaScript", "Handlebars", "CSS", "SQL Server", "C#", "Google Analytics"],
+    "tech": ["JavaScript", "Handlebars", "CSS", "SQL Server", "MongoDB", "C#", "Google Analytics"],
     "web_url": "",
-    "git_url": "https://github.com/profjjk/service-center"
+    "git_url": "https://github.com/profjjk/service-center",
+    "page": "pricespider"
   },
   {
     "name": "Service Center",
-    "role": "",
-    "summary": "Business management software.",
+    "role": "Full-stack software developer",
+    "summary": "Customer relationship manager.",
     "description": "This is tool to help Service Centers and Manufacturer's Representatives keep track of customers, inventory, and service requests. As someone who once worked in this industry, I recognized the need for a simple software application that would help manage these aspects of the business.",
     "images": [
-      "/public/images/service_center/dashboard.png",
-      "/public/images/service_center/customers.png",
-      "/public/images/service_center/service-jobs.png",
-      "/public/images/service_center/inventory.png"
+      { "src": "/images/service_center/dashboard.png", "alt": "Dashboard" },
+      { "src": "/images/service_center/customers.png", "alt": "Customer Page" },
+      { "src": "/images/service_center/service-jobs.png", "alt": "Service Jobs Page" },
+      { "src": "/images/service_center/inventory.png", "alt": "Inventory Page" }
     ],
     "tech": ["NodeJS", "ExpressJS", "MongoDB", "ReactJS", "TypeScript", "SCSS"],
     "web_url": "",
-    "git_url": "https://github.com/profjjk/service-center"
+    "git_url": "https://github.com/profjjk/service-center",
+    "page": "service-center"
   },
   {
     "name": "Metronics",
-    "role": "",
+    "role": "Web Developer",
     "summary": "Official company website.",
     "description": "",
     "images": [
-      "/public/images/metronics/metronics.png",
-      "/public/images/metronics/equipment.png",
-      "/public/images/metronics/request.png",
-      "/public/images/metronics/contact.png"
+      { "src": "/images/metronics/metronics.png", "alt": "Home Page" },
+      { "src": "/images/metronics/equipment.png", "alt": "Equipment Page" },
+      { "src": "/images/metronics/request.png", "alt": "Request Form" },
+      { "src": "/images/metronics/contact.png", "alt": "Contact Page" }
     ],
     "tech": ["JavaScript", "NodeJS", "ExpressJS", "Handlebars", "SCSS", "MongoDB"],
     "web_url": "",
-    "git_url": "https://github.com/profjjk/service-center"
+    "git_url": "https://github.com/profjjk/service-center",
+    "page": "metronics"
   },
   {
     "name": "React Challenges",
@@ -52,6 +55,7 @@
     "images": [],
     "tech": ["ReactJS", "TypeScript", "SCSS/Sass", "Jest"],
     "web_url": "https://react-challenges.netlify.app/",
-    "git_url": "https://github.com/profjjk/react-challenges"
+    "git_url": "https://github.com/profjjk/react-challenges",
+    "page": "react-challenges"
   }
 ]

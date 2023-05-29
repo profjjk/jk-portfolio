@@ -5,7 +5,7 @@
   h1 {
     font-size: 2.8rem;
     font-weight: 400;
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
   }
   h2 {
     font-size: 2.3rem;
@@ -13,13 +13,32 @@
   p, em {
     font-size: 1.1rem;
   }
+  strong {
+    font-family: $secondary-font;
+    font-size: 1.4rem;
+  }
   [class*='col-'] {
     display: flex;
     flex-direction: column;
     gap: 2rem;
   }
-  .col-left {}
-  .col-right {}
+  .link {
+    color: $dark;
+    font-size: 1.1rem;
+    font-style: italic;
+    &:hover {
+      color: $blue;
+    }
+  }
+}
+
+#bio {
+  margin-bottom: 0;
+  div:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
 }
 
 #bio, #projects, #technologies {
@@ -30,8 +49,6 @@
   padding-bottom: 2rem;
 }
 
-#bio {}
-
 #projects {
   padding-top: 1rem;
   border-top: 3px solid $red;
@@ -39,13 +56,13 @@
     color: $red;
     font-weight: 400;
   }
-  .project-list{
+  .project-list {
     margin-top: 0.8rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
   }
-  .project {
+  .project-link {
     border-bottom: 1px solid $gray;
     padding-bottom: 0.6rem;
     h3 {
@@ -57,14 +74,6 @@
     }
     &:hover {
       cursor: pointer;
-      color: $blue;
-    }
-  }
-  a {
-    color: $dark;
-    font-size: 1.1rem;
-    font-style: italic;
-    &:hover {
       color: $blue;
     }
   }
