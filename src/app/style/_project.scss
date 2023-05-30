@@ -38,9 +38,11 @@
   }
   a {
     color: $dark;
-    text-decoration: underline;
     &:hover {
       color: $blue;
     }
+  }
+  p a {
+    text-decoration: underline;
   }
 }
