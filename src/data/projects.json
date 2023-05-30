@@ -48,11 +48,16 @@
     "page": "metronics"
   },
   {
-    "name": "React Challenges",
+    "name": "React Coding Challenges",
     "role": "",
     "summary": "A series of React coding challenges.",
     "description": "",
-    "images": [],
+    "images": [
+      { "src": "/images/react_challenges/checkout-queue.gif", "alt": "Checkout Queue" },
+      { "src": "/images/react_challenges/circle-click.gif", "alt": "Circle Click" },
+      { "src": "/images/react_challenges/file-explorer.gif", "alt": "File Explorer" },
+      { "src": "/images/react_challenges/memory-game.gif", "alt": "Memory Game" }
+    ],
     "tech": ["ReactJS", "TypeScript", "SCSS/Sass", "Jest"],
     "web_url": "https://react-challenges.netlify.app/",
     "git_url": "https://github.com/profjjk/react-challenges",
