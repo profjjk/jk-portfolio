@@ -37,9 +37,9 @@
     "summary": "Official company website.",
     "description": "",
     "images": [
-      { "src": "/images/metronics/metronics.png", "alt": "Home Page" },
+      { "src": "/images/metronics/home.png", "alt": "Home Page" },
+      { "src": "/images/metronics/services.png", "alt": "Services Page" },
       { "src": "/images/metronics/equipment.png", "alt": "Equipment Page" },
-      { "src": "/images/metronics/request.png", "alt": "Request Form" },
       { "src": "/images/metronics/contact.png", "alt": "Contact Page" }
     ],
     "tech": ["JavaScript", "NodeJS", "ExpressJS", "Handlebars", "SCSS", "MongoDB"],
