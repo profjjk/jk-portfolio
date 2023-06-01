@@ -32,9 +32,9 @@ export const Metronics = () => {
                 </p>
 
                 <div>
-                    <a href={'https://metronics-website.herokuapp.com/'} target={'_blank'} rel={'noreferrer'}><em>Visit the website &rarr;</em></a>
+                    <a href={'https://www.metronics-inc.com/'} target={'_blank'} rel={'noreferrer'}><em>Visit the website &rarr;</em></a>
                     <br/>
-                    <a href={'https://github.com/profjjk/metronics-official-website'} target={'_blank'} rel={'noreferrer'}><em>View the code on GitHub &rarr;</em></a>
+                    <a href={'https://github.com/profjjk/metronics-inc'} target={'_blank'} rel={'noreferrer'}><em>View the code on GitHub &rarr;</em></a>
                 </div>
                 <div>
                     <h4>Screenshots</h4>

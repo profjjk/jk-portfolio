@@ -43,7 +43,7 @@
       { "src": "/images/metronics/contact.png", "alt": "Contact Page" }
     ],
     "tech": ["JavaScript", "NodeJS", "ExpressJS", "Handlebars", "SCSS", "MongoDB"],
-    "web_url": "",
+    "web_url": "https://www.metronics-inc.com/",
     "git_url": "https://github.com/profjjk/service-center",
     "page": "metronics"
   },
