@@ -1,3 +1,4 @@
 export { Navbar } from './navbar';
-export { SkillList } from './skill_list';
+export { TechList } from './tech_list';
 export { ProjectHeader } from './project_header';
+export { ImageModal } from './image_modal';

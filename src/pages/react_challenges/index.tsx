@@ -1,14 +1,7 @@
-import { ProjectHeader } from '../../components';
+import { ImageModal, ProjectHeader, TechList } from '../../components';
 import { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faXmark } from '@fortawesome/free-solid-svg-icons';
+import { Image } from '../../utils/types';
 import projects from '../../data/projects.json';
-import uuid from 'react-uuid';
-
-type Image = {
-    src: string,
-    alt: string
-}
 
 export const ReactChallenges = () => {
     const [ images ] = useState<Image[]>(projects[3].images);
@@ -40,24 +33,10 @@ export const ReactChallenges = () => {
                 </div>
             </section>
 
-            <section className={'technologies'}>
-                <h3>Technologies Used</h3>
-                <div className={'tech-list'}>
-                    {projects[3].tech.map((skill) => (
-                        <div className={'tech'} key={uuid()}>{skill}</div>
-                    ))}
-                </div>
-            </section>
+            <TechList skills={projects[3].tech} header={'Technologies Used'} />
 
             {photo &&
-                <div className={'image-modal'}>
-                    <div className={'modal-content'}>
-                        <div className={'close'} onClick={() => setPhoto(null)}>
-                            <FontAwesomeIcon icon={faXmark} />
-                        </div>
-                        <img src={photo.src} alt={photo.alt} />
-                    </div>
-                </div>
+                <ImageModal photo={photo} setPhoto={setPhoto} />
             }
         </main>
     )
