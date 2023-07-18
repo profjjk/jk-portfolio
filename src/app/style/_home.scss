@@ -107,3 +107,22 @@
     font-size: 0.8rem;
   }
 }
+
+@media screen and (max-width: 767px) {
+  #homepage {
+    margin: 0;
+    padding: 10px;
+  }
+  #bio, #projects, #technologies {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 2rem 1rem;
+  }
+  #projects, #technologies {
+    gap: 1.5rem;
+  }
+  #technologies .tech-list {
+    justify-content: center;
+  }
+}

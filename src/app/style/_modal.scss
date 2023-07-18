@@ -36,3 +36,20 @@
     cursor: pointer;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .image-modal {
+
+    img {
+      max-width: calc(100vw - 2rem);
+    }
+
+    .close {
+      right: 1rem;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

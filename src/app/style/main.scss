@@ -58,7 +58,10 @@ ul, li, a {
 
 
 @media screen and (max-width: 767px) {
-
+  #pricespider, #service-center, #metronics, #react-challenges {
+    padding: 1rem 2rem;
+    margin: 0;
+  }
 }
 
 @import 'home';

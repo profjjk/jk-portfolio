@@ -36,3 +36,20 @@
     bottom: 0;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .header {
+    flex-direction: column;
+    h1 {
+      display: none;
+    }
+    h2 {
+      font-size: 1.5rem;
+    }
+    .tab {
+      border-left: 29px solid transparent;
+      border-bottom: 29px solid $red;
+      right: 148px !important;
+    }
+  }
+}

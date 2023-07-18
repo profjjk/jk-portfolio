@@ -25,7 +25,7 @@ export const ServiceCenter = () => {
                     to build one that focused on simplicity and affordability.
                 </p>
                 <div>
-                    <a href={'https://metronics-webapp.netlify.app/'} target={'_blank'} rel={'noreferrer'}><em>Demo the application &rarr;</em></a>
+                    <a href={'https://service-center-crm.netlify.app/dashboard'} target={'_blank'} rel={'noreferrer'}><em>Demo the application &rarr;</em></a>
                     <br/>
                     <a href={'https://github.com/profjjk/service-center'} target={'_blank'} rel={'noreferrer'}><em>View the code on GitHub &rarr;</em></a>
                 </div>
