@@ -27,7 +27,7 @@
       { "src": "/images/service_center/inventory.png", "alt": "Inventory Page" }
     ],
     "tech": ["NodeJS", "ExpressJS", "MongoDB", "ReactJS", "TypeScript", "SCSS"],
-    "web_url": "",
+    "web_url": "https://service-center-crm.netlify.app/",
     "git_url": "https://github.com/profjjk/service-center",
     "page": "service-center"
   },
